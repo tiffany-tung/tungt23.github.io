@@ -26,7 +26,7 @@ p.large {
     font-size: 16px;
 }
 
-a,
+
 a:hover,
 a:focus,
 a:active,
@@ -129,6 +129,7 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fed136;
 }
 
+
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
@@ -212,8 +213,7 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
 }
 
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
+.navbar-default .nav li a:hover{
     outline: 0;
     color: #fed136;
 }
@@ -223,7 +223,9 @@ fieldset[disabled] .btn-xl.active {
     color: #fff;
     background-color: #fed136;
 }
-
+.navbar-default .nav li a:focus {
+    color: #fff;
+}
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
@@ -265,7 +267,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/road.jpg);
+    background-image: url(../img/turtle.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
