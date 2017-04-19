@@ -274,7 +274,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url(../img/frozen.jpg);
-    background-position: center center;
+    background-position: 50% 72%;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -285,6 +285,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+    height: 94vh;
 }
 
 header .intro-text .intro-lead-in {
