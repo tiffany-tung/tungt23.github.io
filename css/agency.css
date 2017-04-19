@@ -281,11 +281,13 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
+.intro-text {
+    height: 94vh;
+}
 
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
-    height: 94vh;
 }
 
 header .intro-text .intro-lead-in {
@@ -309,7 +311,6 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
-        height: 94vh;
     }
 
     header .intro-text .intro-lead-in {
